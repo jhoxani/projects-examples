@@ -1,0 +1,438 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Montserrat|Charmonman|Amatic+SC|Oswald');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Black Ops One', cursive;
+font-family: 'Charmonman', cursive;
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  text-align: center;
+  background-color:#f0f8ff;
+
+}
+
+h1{
+  font-family: 'Black Ops One', cursive;
+  font-size: 70px;
+}
+
+.nav{
+  padding: 0px;
+}
+
+.nav li, .top{
+  display: inline-block;
+}
+.nav li{
+      width: 22%;
+      background-color: #000;
+      padding: 10px;
+      border-radius: 5px;
+}
+
+.nav a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+
+h6{
+  background-color: black;
+    padding: 20px;
+    color: #fff;
+    margin: 30px 0px 0px 0px;
+}
+
+
+.top{
+  width: 20%;
+  margin: 26px;
+}
+
+.top img{
+    width: 100%;
+    border-radius: 5px;
+    height: 180px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+/* WARNING: RECETAS */
+
+.recetas img, .recetas ul{
+  float: left;
+  width: 47%;
+  margin: 15px;
+  text-align: left;
+  border-radius: 10px;
+  height: 400px;
+}
+
+.recetas h3{
+  clear:both;
+  margin: 0px;
+}
+
+.ing{
+  font-weight: bold;
+  margin: 10px;
+  list-style: none;
+  font-size: 25px;
+  text-align: center;
+}
+
+/* WARNING: RECETAS */
+
+.recetas li{
+  margin: 10px;
+}
+
+.recetas p{
+  text-align: justify;
+  padding: 20px;
+  margin: 0px;
+}
+
+/* WARNING: TECNOLOGIA */
+
+.tecnologia p{
+  display: inline-block;
+  width: 48%;
+  margin: 0px;
+  text-align: justify;
+  padding: 50px;
+}
+
+.tecnologia{
+  margin: 10px;
+}
+.tecnologia iframe{
+  vertical-align: text-top;
+  vertical-align: top;
+}
+
+/* WARNING: MUSICA */
+
+.musica{
+  width: 80%;
+  margin: auto;
+}
+.musica img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 55px;
+}
+
+.musica h2{
+  margin: 50px;
+}
+
+/* WARNING: JUEGOS */
+
+.juegos img{
+  width: 20%;
+  height: 200px;
+  margin: 2px;
+  border-radius: 6px;
+}
+.juego img{
+  width: 24%;
+  margin: 2px;
+  border-radius: 6px;
+  height: 400px;
+}
+
+/* WARNING: ARTE */
+
+.arte{
+  padding: 0px;
+}
+
+.arte li{
+  display: inline-block;
+  padding: 10px;
+  background-color: rgb(16, 9, 83);
+  width: 25%;
+  margin: -3px;
+}
+.artes a{
+  color: rgb(16, 9, 83);
+  font-size: 15px;
+  margin: 10px;
+  font-weight: bold;
+
+}
+.arte a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.arteTi{
+  font-family: 'Charmonman', cursive;
+  font-size: 30px;
+}
+
+.artes p, .artes .comentario{
+  text-align: justify;
+  width: 78%;
+  margin: auto;
+}
+
+/* WARNING: AUTOS */
+.navAutos{
+  background-color:#e10600;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.navAutos div{
+  width: 25%;
+}
+
+.navAutos img{
+  float: left;
+  width: 56%;
+  padding: 14px;
+}
+
+.navAutos ul{
+  width: 85%;
+  float: left;
+}
+
+.navAutos li{
+  display: inline-block;
+  width: 24%;
+}
+
+.navAutos a{
+  color: #fff;
+}
+
+.carh1{
+  font-size: 25px;
+  margin: 25px;
+}
+
+.car{
+  width: 25%;
+  height: 600px;
+  background-color: #6b696b40;
+  margin: 1px;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.car img{
+  width: 100%;
+  height: 200px;
+  padding: 8px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.car p{
+  text-align: justify;
+  padding: 15px;
+  margin: 0px;
+}
+
+/* WARNING: DEPORTES */
+.deporteNav{
+  float: left;
+  width: 30%;
+}
+
+.deporteNav img{
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+}
+.deporteMain{
+  float: left;
+  width: 70%;
+  padding: 30px;
+}
+.deporte p{
+  text-align: justify;
+}
+
+.deporte{
+  overflow: hidden;
+}
+
+.deporteNav{
+  padding: 20px;
+}
+
+.deporteNav h2{
+  padding: 100px;
+  color: #fff;
+  margin: 10px;
+}
+
+.deporteNav div{
+    width: 100%;
+    height: 200px;
+    background-size: 100% 100%;
+    border-radius:5px;
+}
+
+.deporteNav .rugby{
+  background-image: url("img/rugby.jpg");
+}
+
+.deporteNav .futbol{
+  background-image: url("img/futbol.jpg");
+}
+
+.deporteNav .hockey{
+  background-image: url("img/hockey.jpg");
+}
+
+.deporteNav .surf{
+  background-image: url("img/surf2.jpg");
+}
+
+.deporteMain h2{
+  font-size: 20px;
+  color: rgb(4, 73, 2);
+}
+
+.deporteMain img{
+  width: 100%;
+}
+
+.deportesA{
+      color:#fda300;
+}
+
+/* WARNING: INSTRUMENTOS */
+
+.instrumentos{
+  display: inline-block;
+  width: 25%;
+  margin: 10px 0px;
+  border: #80808038 1px solid;
+  border-radius: 7px;
+}
+
+.instrumentos img{
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.instrumentos p{
+  display: inline-block;
+  margin:0px 20px 10px 0px;
+}
+
+.instrumentos h2{
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* WARNING: PELICULAS */
+
+.peliculas img{
+  width: 24%;
+  margin: 2px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+/* WARNING: LIBROS */
+
+.libros{
+  display: inline-block;
+  width: 30%;
+  margin: 10px 0px;
+  border: #80808038 1px solid;
+  border-radius: 5px;
+}
+
+.libros img{
+  width: 100%;
+  height: 400px;
+  border-radius: 3px;
+}
+
+/* WARNING: makeup */
+
+.makeup div{
+  width: 25%;
+  height: 350px;
+  display: inline-block;
+  border: 1px solid #cec7c7;;
+}
+
+.makeup img{
+  width: 100%;
+  height: 200px;
+}
+
+.makeup h2{
+  font-size: 20px;
+}
+
+.makeup h3{
+  color: rgb(157, 138, 49);
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+}
+
+.faq{
+  width: 90%;
+  margin: 60px;
+  text-align: justify;
+}
+
+.faq h2{
+  font-family: 'Oswald', sans-serif;
+}
+
+/* WARNING: FAQ */
+
+.contacts{
+  overflow: hidden;
+}
+
+.contact{
+   height: 400px;
+   border: 1px solid #cec7c7;
+   width: 32%;
+   margin: 8px;
+   float: left;
+   border-radius: 5px;
+   padding: 20px;
+}
+
+.contact li{
+  list-style: none;
+      display: inline-block;
+}
+
+.contact i{
+  font-size: 35px;
+  margin: 20px;
+}
+
+.all li{
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+}

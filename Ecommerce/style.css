@@ -1,0 +1,297 @@
+/* INSPIRATION
+https://www.forever21.com/us/shop
+*/
+
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* WARNING: GENERAL */
+*{
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav, .nav ul, .nav ol, .content, .footer, .allClothing, .footer ul, .contact{
+  overflow: hidden;
+}
+
+.section, .nav li, .box, .footer li, .categories, .clothing , .contactUs{
+  float: left;
+}
+
+
+/* WARNING: NAV */
+
+.nav, .nav ul, .nav ol{
+  background-color: #000;
+  height: 58px;
+  padding: 0;
+}
+
+.nav .img{
+  width: 15%;
+}
+
+.nav .img img{
+  width: 160px;
+  margin-left: 15px;
+}
+
+.nav ul{
+  width: 52%;
+  font-size: 18px;
+}
+
+.nav li{
+  list-style: none;
+  text-align: center;
+  vertical-align: baseline;
+  height: 100%;
+  width: 25%;
+  padding: 17px;
+}
+
+.nav a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav i{
+  color: #fff;
+}
+
+.nav form{
+  padding: 9px;
+}
+
+.nav input{
+  width: 220px;
+  border-radius: 20px;
+  padding: 8px;
+  border: #161617;
+  font-size: 15px;
+}
+
+.nav button{
+  margin-left: -42px;
+  border-radius: 20px;
+  width: 38px;
+  height: 34px;
+  background-color: yellow;
+  border: yellow;
+}
+
+.nav form i{
+  color: #000;
+}
+
+/* WARNING: CONTENT 4 INDEX */
+
+.contentFour img{
+  width: 24.5%;
+  padding: 10px 0px 0px 10px;
+}
+
+h2{
+  border-top:  1px solid #888;
+  text-align: center;
+  font-weight: 200;
+  font-size: 40px;
+  margin: 20px;
+}
+
+/* WARNING BOX*/
+
+.box{
+  width: 15%;
+  margin: 10px;
+}
+
+.box img{
+  width: 100%;
+  border: solid #eaeaea 1px;
+}
+
+.box p{
+  color: #000;
+  margin: 5px;
+}
+
+/* WARNING FOOTER*/
+
+.footer{
+  background-color: #eaeaea;
+  height: 150px
+}
+.footer ul{
+  margin-left: 30%;
+  padding: 15px;
+}
+
+.footer li{
+  list-style: none;
+  margin: 10px;
+
+}
+
+.footer img{
+  width: 100px;
+}
+
+.footer a{
+  color: #000;
+}
+
+.footer h6{
+  text-align: center;
+}
+
+/* WARNING woMen*/
+
+.woMen h3{
+  background-color: rgb(17, 231, 231);
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 15px;
+}
+
+.woMen strong{
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.clothing h2{
+  clear: both;
+}
+
+.categories{
+  width: 20%;
+
+}
+
+.clothing{
+  width: 80%;
+}
+
+.clothing .box{
+  width: 30%;
+}
+
+.clothing .box img{
+  height: 450px;
+}
+
+.categories a{
+  color: #000;
+  text-decoration: none;
+}
+
+/* WARNING FAQ*/
+
+.faq-header{
+  font-size: 42px;
+  border-bottom: 1px dotted #ccc;
+  padding: 24px;
+}
+
+.faq-content {
+  margin: 0 auto;
+}
+
+.faq-question {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+.faq-question label{
+  font-weight: bold;
+}
+.panel-title {
+  font-size: 20px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+
+.panel-content {
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  -webkit-transition: .4s ease;
+  -moz-transition: .4s ease;
+  -o-transition: .4s ease;
+  transition: .4s ease;
+}
+
+.panel-content p{
+  text-align: justify;
+}
+
+.panel:checked ~ .panel-content{
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+
+.plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 30px;
+  line-height: 117%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .2s ease;
+  -moz-transition: .2s ease;
+  -o-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.panel:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.panel {
+  display: none;
+}
+
+/* WARNING CONTACT US */
+
+.contact{
+  padding: 10px;
+}
+.contactUs{
+  width: 48%;
+  margin: 10px;
+}
+
+.contactUs p{
+  margin: 10px;
+  text-align: justify;
+  line-height:35px;
+}
+
+.contactUs li{
+  list-style: none;
+}
+
+.contact i{
+  margin: 10px;
+}

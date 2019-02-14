@@ -1,0 +1,264 @@
+/* INSPIRATION
+ nav: https://www.viajeroscallejeros.com/blog-de-viajes/
+ cuadrados: https://www.civitatis.com/es/buscar?aid=2105&q=gratis
+ contenido general: https://www.civitatis.com/blog/10-mejores-blogs-viajes
+                    https://mevoyalmundo.com/los-mejores-blogs-de-viajes/
+                    https://www.viajeroscallejeros.com/
+                    http://www.losapuntesdelviajero.com/
+                    https://saltaconmigo.com/blog/z
+                    https://www.sfklifestyle.com/home/2018/9/17/venecia
+imagenes estructura:https://masedimburgo.com/
+                    https://lostraveleros.com/
+                    https://www.anuevayork.com/
+
+colores:
+gris claro: #F1F1F2
+gris: #BCBABE
+azul claro: #A1D6E2
+azul oscuro: #1995AD
+
+tipo de letra:
+
+letra corrida
+font-family: 'Dancing Script', cursive;
+letra mayuscula
+font-family: 'Cinzel', serif;
+letra contenido
+font-family: 'Krub', sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Dancing+Script|Assistant');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+  background-color: #f1f1f2;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+ /* WARNING: General */
+
+.nav, .continenetes, .contenido, .continente, .pais{
+  overflow: hidden;
+}
+
+.nav li, .continenetes div, .contenido div , .continente img, .continente .contenido, .pais img, .pais p{
+  float: left;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* WARNING: NAV */
+
+.nav{
+  background-color: #1995AD;
+  margin: 0;
+  padding: 5px;
+}
+
+.nav li{
+  width: 14%;
+  padding: 10px;
+  list-style: none;
+}
+
+.nav a{
+  display: block;
+  color: #FFF;
+  font-size: 20px;
+}
+
+/* WARNING: CONTENT INDEX */
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  color: #1995AD;
+}
+
+h2{
+  color: #BCBABE;
+}
+
+.continenetes div{
+  margin: 1px;
+  height: 300px;
+  width: 33.1%;
+  background-size: 100% 100%;
+}
+
+.continenetes h2{
+  padding: 100px;
+  color: #fff;
+}
+
+.continenetes .america{
+    width: 55%;
+    background-image: url("img/SanFrancisco.jpg");
+}
+
+.continenetes .europa{
+  width: 44.6%;
+  background-image: url("img/Roterdam.jpg");
+}
+
+.continenetes .asia{
+  background-image: url("img/shanghai.jpg");
+}
+
+.continenetes .africa{
+  background-image: url("img/Cabo.jpg");
+}
+
+.continenetes .oceania{
+  background-image: url("img/NuevaZelanda.jpg");
+}
+/* WARNING: BOTONES INDEX */
+
+.botones{
+  width: 47.83%;
+  margin: 14px;
+  height: 250px;
+}
+
+.botones p{
+  text-align: justify;
+}
+
+.botones a{
+  padding: 10px;
+  color: #A1D6E2;
+  border-radius: 25px;
+  background-color:#1995AD;
+}
+
+.botones h3{
+  font-family: 'Dancing Script', cursive;
+}
+
+.boton{
+  width: 100%;
+  margin: 2px;
+  height: 250px;
+  background-size: 100% 100%;
+}
+
+.boton  h3{
+  color: #fff;
+  padding: 98px;
+}
+
+.img img{
+  width: 19.6%;
+  height: 200px;
+}
+
+
+/* WARNING: FOOTER */
+
+.footer{
+  background-color:#1995AD;
+  margin: 0px;
+  padding: 10px;
+  color: #F1F1F2;
+}
+
+.footer h2, .footer h3, .footer h4{
+  font-family: 'Dancing Script', cursive;
+}
+
+/* WARNING: CONTINENTES */
+
+.continente{
+  margin: 15px;
+  box-shadow: 1px 1px 15px -3px #888888;
+
+}
+.continente img{
+  width: 28%;
+  margin: 30px;
+  height: 200px;
+}
+
+.continente .contenido{
+  width: 65%
+}
+
+.continente li{
+  display: inline-block;
+}
+
+.separador{
+  margin:0px 180px;
+}
+
+
+/* WARNING: ULTIMO BOTONES */
+
+.paises{
+  width: 24%;
+  margin: 2px;
+  display: inline-block;
+  margin-bottom: 30px;
+
+}
+
+.paises img{
+  width: 100%;
+  height: 170px;
+}
+
+.continente a, .paises a{
+  color: #1995AD;
+}
+
+/* WARNING: PAIS */
+
+.paisInicial img{
+  width: 100%;
+}
+
+.paisInicial p{
+  text-align: justify;
+  width: 96%;
+  margin: 10px;
+
+}
+.pais img, .pais p{
+  width: 47%;
+  margin: 10px;
+  text-align: justify;
+  border-radius: 8px;
+}
+
+.paisInicial {
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}
+
+.categoria h4, .categoria h5 {
+  font-size: 15px;
+  display: inline-block;
+  margin: 10px;
+  font-weight: 100;
+}
+
+.categoria .fas{
+  font-size:15px;
+}
+
+.faq p{
+  text-align: justify;
+  margin: 39px 78px;
+
+}

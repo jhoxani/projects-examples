@@ -1,0 +1,62 @@
+/*
+
+font-family: 'Quattrocento Sans', sans-serif;
+font-family: 'Boogaloo', cursive;
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo|Quattrocento+Sans');
+@import url('https://use.fontawesome.com/releases/v5.4.1/css/all.css');
+
+body{
+  font-family: 'Quattrocento Sans', sans-serif;
+  background-image: url("img/background.png");
+  font-weight: bold;
+  line-height: 1.7;
+  text-align: center;
+}
+
+img{
+  border: solid #bbb 1px;
+  width: 600px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+h1{
+  font-family: 'Boogaloo', cursive;
+  font-weight: 200;
+  color: #022a9a;
+  font-size: 40px;
+}
+
+p{
+  justify-content: center;
+  margin: 10px 80px;
+}
+
+h2{
+  font-family: 'Boogaloo', cursive;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 100;
+  margin: 10px;
+}
+
+a{
+  background-color:#022a9a;
+  padding: 9px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fas {
+  color: #022a9a;
+  display: block;
+}
+
+.home{
+  padding: 0px;
+}
